@@ -1,7 +1,7 @@
 import React  from "react";
 
 const Posts = ({posts}) =>{
-  //  la
+
     return(
         <div>
         {posts.map(posts=>(
