@@ -6,11 +6,6 @@ import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
 
-//   <Router>
-//   <Route exact path="/" component={App}/>
-//   <Route exact path="/lista" component={Lista}/>
-//   <Route exact path="/add" component={Adicionar}/>
-// </Router> 
   <React.StrictMode>
     <App />
   </React.StrictMode>,

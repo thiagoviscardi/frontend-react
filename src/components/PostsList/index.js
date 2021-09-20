@@ -22,8 +22,11 @@ export default function PostsList() {
   const indexOfLastPost = currentPage * postsPerPage;
   const indexOfFisrtPost = indexOfLastPost - postsPerPage;
   const currentPost = lista.slice(indexOfFisrtPost, indexOfLastPost);
+  const numberPosts = currentPost.length;
 
   const paginate=(pageNumber)=> setCurrentPage(pageNumber);
+
+  console.log('numero d epostagens', currentPost.length);
 
 function postsList(){
   if(lista && lista[0] && lista[0].id){
@@ -32,6 +35,7 @@ function postsList(){
       <div>
       <Posts posts={currentPost}/>
       <Pagination postsPerPage={postsPerPage} totalPosts={lista.length} paginate={paginate} />
+      <p>Exibindo {numberPosts} postagens</p>
      </div>
     )
   }
