@@ -9,7 +9,7 @@ function App() {
         <img alt="mooving" src={moovingicone} style={{width:'8%'}} />
         </div>
       <header className="App-header">
-       {/* la */}
+  
         <Posts/> 
       </header>
     </div>
