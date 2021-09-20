@@ -46,8 +46,8 @@ function postsList(){
   <PostContainer>
     <h1 style={{paddingLeft:'20px'}}>Últimas postagens</h1>
     <HeadTitle>
-          <div style={{display:"inline-block", width:'20%'}}><span style={{paddingLeft:'20px'}}>Título</span></div> 
-          <div style={{display:"inline-block", width:'80%'}}><span style={{paddingLeft:'20px'}}>Conteúdo</span></div>  
+          <div style={{display:"inline-block", width:'20%'}}><span style={{paddingLeft:'10px'}}>Título</span></div> 
+          <div style={{display:"inline-block", width:'80%'}}><span style={{paddingLeft:'10px'}}>Conteúdo</span></div>  
     </HeadTitle>
     {postsList()}
 
